@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="440" viewBox="0 0 1200 440">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0d0a26"/>
+      <stop offset="1" stop-color="#17103a"/>
+    </linearGradient>
+    <linearGradient id="boxFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#221a4d" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#1a1440" stop-opacity="0.9"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#5eead4"/>
+    </marker>
+    <style>
+      .title { font: bold 21px 'Segoe UI', Tahoma, Arial, sans-serif; fill: #f1f5f9; }
+      .sub { font: 15px 'Segoe UI', Tahoma, Arial, sans-serif; fill: #a5b4fc; }
+      .item { font: 14.5px 'Segoe UI', Tahoma, Arial, sans-serif; fill: #cbd5e1; }
+      .edge { font: 13px 'Segoe UI', Tahoma, Arial, sans-serif; fill: #5eead4; }
+    </style>
+  </defs>
+
+  <rect width="1200" height="440" rx="18" fill="url(#abg)"/>
+
+  <!-- App -->
+  <rect x="40" y="120" width="280" height="200" rx="16" fill="url(#boxFill)" stroke="#7c3aed" stroke-opacity="0.7"/>
+  <text x="180" y="156" text-anchor="middle" class="title">Sufra app</text>
+  <text x="180" y="180" text-anchor="middle" class="sub">Flutter, one codebase</text>
+  <text x="64" y="214" class="item">• Arabic-first (RTL) + English</text>
+  <text x="64" y="240" class="item">• Light and dark themes</text>
+  <text x="64" y="266" class="item">• Offline-first local storage</text>
+  <text x="64" y="292" class="item">• Phone, tablet and desktop</text>
+
+  <!-- Firebase -->
+  <rect x="470" y="46" width="300" height="150" rx="16" fill="url(#boxFill)" stroke="#f97316" stroke-opacity="0.7"/>
+  <text x="620" y="82" text-anchor="middle" class="title">Firebase</text>
+  <text x="494" y="116" class="item">• Authentication</text>
+  <text x="494" y="142" class="item">• Cloud Firestore, per-user rules</text>
+  <text x="494" y="168" class="item">• Cloud Messaging</text>
+
+  <!-- Workers -->
+  <rect x="470" y="244" width="300" height="150" rx="16" fill="url(#boxFill)" stroke="#14b8a6" stroke-opacity="0.7"/>
+  <text x="620" y="280" text-anchor="middle" class="title">Cloudflare Workers</text>
+  <text x="494" y="314" class="item">• AI food photo analysis</text>
+  <text x="494" y="340" class="item">• Health coach</text>
+  <text x="494" y="366" class="item">• Password reset codes</text>
+
+  <!-- AI -->
+  <rect x="890" y="244" width="270" height="110" rx="16" fill="url(#boxFill)" stroke="#a5b4fc" stroke-opacity="0.7"/>
+  <text x="1025" y="280" text-anchor="middle" class="title">Workers AI</text>
+  <text x="914" y="314" class="item">• Open models (Gemma, Qwen)</text>
+  <text x="914" y="340" class="item">• No AI keys in the app, ever</text>
+
+  <!-- Data -->
+  <rect x="890" y="46" width="270" height="150" rx="16" fill="url(#boxFill)" stroke="#fdba74" stroke-opacity="0.7"/>
+  <text x="1025" y="82" text-anchor="middle" class="title">Trusted food data</text>
+  <text x="914" y="116" class="item">• Open Food Facts (barcode)</text>
+  <text x="914" y="142" class="item">• USDA FoodData Central</text>
+  <text x="914" y="168" class="item">• Bundled Egyptian catalog</text>
+
+  <!-- Edges -->
+  <path id="e1" d="M320,160 L466,130" fill="none" stroke="#5eead4" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M320,160 L466,130" fill="none" stroke="#99f6e4" stroke-width="3" stroke-dasharray="6 22" stroke-linecap="round" opacity=".85">
+    <animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.6s" repeatCount="indefinite"/>
+  </path>
+  <text x="330" y="118" class="edge">sign-in, per-user data</text>
+  <path id="e2" d="M320,280 L466,300" fill="none" stroke="#5eead4" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M320,280 L466,300" fill="none" stroke="#99f6e4" stroke-width="3" stroke-dasharray="6 22" stroke-linecap="round" opacity=".85">
+    <animate attributeName="stroke-dashoffset" from="28" to="0" dur="1.4s" repeatCount="indefinite"/>
+  </path>
+  <text x="328" y="330" class="edge">HTTPS + Firebase ID token</text>
+  <text x="328" y="350" class="edge">rate-limited per user</text>
+  <path id="e3" d="M770,300 L886,300" fill="none" stroke="#5eead4" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M770,300 L886,300" fill="none" stroke="#c7d2fe" stroke-width="3" stroke-dasharray="5 17" stroke-linecap="round" opacity=".9">
+    <animate attributeName="stroke-dashoffset" from="22" to="0" dur="1s" repeatCount="indefinite"/>
+  </path>
+  <path id="e4" d="M1015,46 L1015,22 L180,22 L180,116" fill="none" stroke="#5eead4" stroke-width="2" stroke-dasharray="5 5" marker-end="url(#arrow)">
+    <animate attributeName="stroke-dashoffset" from="20" to="0" dur="2.2s" repeatCount="indefinite"/>
+  </path>
+  <text x="470" y="16" class="edge">barcode and nutrition lookup, straight from the app</text>
+
+  <!-- traveling pulses -->
+  <circle r="4.5" fill="#5eead4"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#e1" xlink:href="#e1"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.85;1" dur="2.4s" repeatCount="indefinite"/></circle>
+  <circle r="4.5" fill="#5eead4"><animateMotion dur="2.1s" begin="-1s" repeatCount="indefinite"><mpath href="#e2" xlink:href="#e2"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.85;1" dur="2.1s" begin="-1s" repeatCount="indefinite"/></circle>
+  <circle r="4.5" fill="#a5b4fc"><animateMotion dur="1.6s" begin="-0.4s" repeatCount="indefinite"><mpath href="#e3" xlink:href="#e3"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.85;1" dur="1.6s" begin="-0.4s" repeatCount="indefinite"/></circle>
+  <circle r="4.5" fill="#fdba74"><animateMotion dur="4.5s" begin="-2s" repeatCount="indefinite"><mpath href="#e4" xlink:href="#e4"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.1;0.88;1" dur="4.5s" begin="-2s" repeatCount="indefinite"/></circle>
+  <rect x="40" y="120" width="280" height="200" rx="16" fill="none" stroke="#7c3aed" stroke-width="1.6" opacity=".4">
+    <animate attributeName="opacity" values=".15;.55;.15" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="470" y="46" width="300" height="150" rx="16" fill="none" stroke="#f97316" stroke-width="1.6" opacity=".4">
+    <animate attributeName="opacity" values=".15;.55;.15" dur="4.6s" begin="-1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="470" y="244" width="300" height="150" rx="16" fill="none" stroke="#14b8a6" stroke-width="1.6" opacity=".4">
+    <animate attributeName="opacity" values=".15;.55;.15" dur="5s" begin="-2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="890" y="244" width="270" height="110" rx="16" fill="none" stroke="#a5b4fc" stroke-width="1.6" opacity=".4">
+    <animate attributeName="opacity" values=".15;.55;.15" dur="4.3s" begin="-1.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="890" y="46" width="270" height="150" rx="16" fill="none" stroke="#fdba74" stroke-width="1.6" opacity=".4">
+    <animate attributeName="opacity" values=".15;.55;.15" dur="4.8s" begin="-0.6s" repeatCount="indefinite"/>
+  </rect>
+</svg>
