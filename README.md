@@ -4,7 +4,7 @@
 
 # Sufra <img src="assets/sufra-wordmark.svg" alt="سفرة" height="22"/>: case study
 
-Arabic-first food and nutrition companion for Android, built with Flutter and Firebase. The source code is private (client work). This page covers the product and the engineering. Every screen on this page is a real render from the app's own test suite.
+Arabic-first food and nutrition companion for Android, built with Flutter and Firebase. The source code is private (client work). This page covers the product and the engineering. Every screen on this page is real footage from the app itself - test-suite renders and recorded runs on the real build.
 
 ## Product thinking
 
@@ -33,6 +33,11 @@ Arabic-first food and nutrition companion for Android, built with Flutter and Fi
     <td><img src="assets/cards/ramadan.svg" alt="Ramadan mode, suhoor to iftar" width="100%"/><br/><sub>Ramadan mode, suhoor to iftar</sub></td>
     <td><img src="assets/cards/food_detail.svg" alt="Real dishes, real numbers" width="100%"/><br/><sub>Real dishes, real numbers</sub></td>
     <td><img src="assets/cards/barcode_product.svg" alt="Barcode to Nutri-Score, ingredients and allergens" width="100%"/><br/><sub>Barcode to Nutri-Score, ingredients and allergens</sub></td>
+  </tr>
+  <tr>
+    <td><img src="assets/cards/photo_analysis.svg" alt="Snap the plate, get real nutrition" width="100%"/><br/><sub>Snap the plate, get real nutrition</sub></td>
+    <td><img src="assets/cards/coach.svg" alt="The coach, chatting in Egyptian Arabic" width="100%"/><br/><sub>The coach, chatting in Egyptian Arabic</sub></td>
+    <td><img src="assets/cards/planner.svg" alt="The week, planned" width="100%"/><br/><sub>The week, planned</sub></td>
   </tr>
 </table>
 
